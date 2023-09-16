@@ -4,23 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87b739b6-2ca0-406a-9fb9-ac6832e9e810" name="변경" comment="Sep_thirteen">
-      <change afterPath="$PROJECT_DIR$/src/bj10810.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bj10811.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bj10813.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bj1152.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bj11654.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bj11718.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bj11720.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bj1546.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bj25083.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bj2562.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bj2675.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bj2908.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bj3052.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bj5597.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bj5622.java" afterDir="false" />
+    <list default="true" id="87b739b6-2ca0-406a-9fb9-ac6832e9e810" name="변경" comment="Sep_fifteen">
+      <change afterPath="$PROJECT_DIR$/src/bj10798.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bj10988.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bj1157.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bj1316.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bj2444.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bj25206.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bj2563.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bj2566.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bj2738.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bj2941.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bj3003.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj11718.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bj11718.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj25083.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bj25083.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj3052.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bj3052.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj5622.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bj5622.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,8 @@
       <option name="presentableId" value="Default" />
       <updated>1694405535030</updated>
       <workItem from="1694405536071" duration="25826000" />
-      <workItem from="1694695691429" duration="24163000" />
+      <workItem from="1694695691429" duration="31616000" />
+      <workItem from="1694830894418" duration="13812000" />
     </task>
     <task id="LOCAL-00001" summary="Sep_eleventh">
       <option name="closed" value="true" />
@@ -92,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694604692504</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Sep_fifteen">
+      <option name="closed" value="true" />
+      <created>1694788082363</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694788082363</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,7 +122,8 @@
     <MESSAGE value="Sep_eleventh" />
     <MESSAGE value="Sep_twelveth" />
     <MESSAGE value="Sep_thirteen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sep_thirteen" />
+    <MESSAGE value="Sep_fifteen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sep_fifteen" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

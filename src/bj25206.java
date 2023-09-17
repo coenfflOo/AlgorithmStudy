@@ -7,15 +7,17 @@ public class bj25206 {
         String s = "";
         double scoreSum = 0;
         double gradeSum = 0;
-        while ((s = br.readLine()) != null){
+        while ((s = br.readLine()) != null) {
+            if (s.equals("") || s == null)
+                break;
             StringTokenizer st = new StringTokenizer(s);
             String subject = st.nextToken();
             double score = Double.parseDouble(st.nextToken());
             String grade = st.nextToken();
 
-            if (!grade.equals("P")){
+            if (!grade.equals("P")) {
                 scoreSum += score;
-                gradeSum = score*gradeScore(grade);
+                gradeSum += score * gradeScore(grade);
             }
         }
         double avg = gradeSum/scoreSum;

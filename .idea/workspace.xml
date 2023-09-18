@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87b739b6-2ca0-406a-9fb9-ac6832e9e810" name="변경" comment="Sep_sixteen">
-      <change afterPath="$PROJECT_DIR$/src/bj11005.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bj2745.java" afterDir="false" />
+    <list default="true" id="87b739b6-2ca0-406a-9fb9-ac6832e9e810" name="변경" comment="Sep_seventeen">
+      <change afterPath="$PROJECT_DIR$/src/bj1193.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bj2292.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bj2720.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bj2869.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bj2903.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bj1157.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bj1157.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bj1316.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bj1316.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bj25206.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bj25206.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bj2941.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bj2941.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj11005.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bj11005.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj2444.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bj2444.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj2745.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bj2745.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +60,11 @@
       <updated>1694405535030</updated>
       <workItem from="1694405536071" duration="25826000" />
       <workItem from="1694695691429" duration="31616000" />
-      <workItem from="1694830894418" duration="24492000" />
+      <workItem from="1694830894418" duration="25129000" />
+      <workItem from="1694959296319" duration="4000" />
+      <workItem from="1694959317670" duration="9000" />
+      <workItem from="1694959485803" duration="5000" />
+      <workItem from="1694960053848" duration="18314000" />
     </task>
     <task id="LOCAL-00001" summary="Sep_eleventh">
       <option name="closed" value="true" />
@@ -100,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694875717764</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Sep_seventeen">
+      <option name="closed" value="true" />
+      <created>1694956307544</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694956307544</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,7 +137,8 @@
     <MESSAGE value="Sep_thirteen" />
     <MESSAGE value="Sep_fifteen" />
     <MESSAGE value="Sep_sixteen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sep_sixteen" />
+    <MESSAGE value="Sep_seventeen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sep_seventeen" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

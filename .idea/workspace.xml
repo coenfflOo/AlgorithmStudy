@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87b739b6-2ca0-406a-9fb9-ac6832e9e810" name="변경" comment="Sep_22nd">
-      <change afterPath="$PROJECT_DIR$/src/bj10816.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bj10828.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bj10845.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bj10866.java" afterDir="false" />
+    <list default="true" id="87b739b6-2ca0-406a-9fb9-ac6832e9e810" name="변경" comment="Sep_23nd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj1018.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bj1018.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +65,8 @@
       <workItem from="1695288938982" duration="14056000" />
       <workItem from="1695318372173" duration="16278000" />
       <workItem from="1695403065748" duration="9719000" />
+      <workItem from="1695488971085" duration="22000" />
+      <workItem from="1695516519714" duration="778000" />
     </task>
     <task id="LOCAL-00001" summary="Sep_eleventh">
       <option name="closed" value="true" />
@@ -149,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695384299174</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Sep_23nd">
+      <option name="closed" value="true" />
+      <created>1695488988237</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695488988237</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +184,8 @@
     <MESSAGE value="Sep_twenty" />
     <MESSAGE value="Sep_21st" />
     <MESSAGE value="Sep_22nd" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sep_22nd" />
+    <MESSAGE value="Sep_23nd" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sep_23nd" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

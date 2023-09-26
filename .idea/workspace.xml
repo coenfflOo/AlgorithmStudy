@@ -4,9 +4,156 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87b739b6-2ca0-406a-9fb9-ac6832e9e810" name="변경" comment="Sep_23nd">
+    <list default="true" id="87b739b6-2ca0-406a-9fb9-ac6832e9e810" name="변경" comment="Sep_24th">
+      <change afterPath="$PROJECT_DIR$/src/September/bj10171.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj10172.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj10773.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj10798.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj10810.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj10811.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj10813.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj10814.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj10816.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj10828.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj10845.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj10866.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj10869.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj10926.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj10950.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj10952.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj10988.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj11005.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj11022.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj11050.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj11382.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj1157.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj11650.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj11651.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj11653.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj11654.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj11718.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj11720.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj1181.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj11866.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj1193.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj1259.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj1316.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj1330.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj1436.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj14681.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj1546.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj15829.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj1676.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj18110.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj1920.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj2164.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj2231.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj2292.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj24313.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj2439.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj2444.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj2480.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj25083.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj25206.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj2525.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj25304.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj2562.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj2563.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj2566.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj2588.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj2675.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj2720.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj2738.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj2745.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj2751.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj2753.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj2775.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj2798.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj2839.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj2869.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj2884.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj2903.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj2908.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj2941.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj3003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj3052.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj4949.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj5597.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj5622.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj7568.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj9498.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bj1018.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bj1018.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj10171.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj10172.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj1018.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/September/bj1018.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj10798.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj10810.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj10811.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj10813.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj10814.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj10816.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj10828.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj10845.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj10866.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj10869.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj10926.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj10950.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj10952.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj10988.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj11005.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj11022.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj11050.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj11382.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj1152.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/September/bj1152.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj1157.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj11650.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj11653.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj11654.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj11718.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj11720.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj1181.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj11866.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj1193.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj1259.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj1316.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj1330.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj14681.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj1546.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj15829.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj1920.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj2164.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj2231.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj2292.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj2439.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj2444.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj2480.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj25083.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj25206.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj2525.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj25304.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj2562.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj2563.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj2566.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj2588.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj2675.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj2720.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj2738.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj2745.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj2751.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj2753.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj2775.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj2798.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj2869.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj2884.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj2903.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj2908.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj2941.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj3003.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj3052.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj5597.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj5622.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bj9498.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,13 +171,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2VEeBwl2nBQDXUWgXh7nm0iISq2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -66,7 +216,10 @@
       <workItem from="1695318372173" duration="16278000" />
       <workItem from="1695403065748" duration="9719000" />
       <workItem from="1695488971085" duration="22000" />
-      <workItem from="1695516519714" duration="778000" />
+      <workItem from="1695516519714" duration="894000" />
+      <workItem from="1695607463671" duration="41000" />
+      <workItem from="1695607547759" duration="13503000" />
+      <workItem from="1695692937685" duration="6816000" />
     </task>
     <task id="LOCAL-00001" summary="Sep_eleventh">
       <option name="closed" value="true" />
@@ -156,7 +309,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695488988237</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Sep_24th">
+      <option name="closed" value="true" />
+      <created>1695517310074</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1695517310074</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +335,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Sep_eleventh" />
     <MESSAGE value="Sep_twelveth" />
     <MESSAGE value="Sep_thirteen" />
@@ -185,7 +347,8 @@
     <MESSAGE value="Sep_21st" />
     <MESSAGE value="Sep_22nd" />
     <MESSAGE value="Sep_23nd" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sep_23nd" />
+    <MESSAGE value="Sep_24th" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sep_24th" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

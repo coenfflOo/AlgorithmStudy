@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87b739b6-2ca0-406a-9fb9-ac6832e9e810" name="변경" comment="Sep_28th">
+    <list default="true" id="87b739b6-2ca0-406a-9fb9-ac6832e9e810" name="변경" comment="Sep_29th">
+      <change afterPath="$PROJECT_DIR$/src/September/bj11723.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj13241.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/September/bj1735.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/September/bj11478.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/September/bj11478.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/September/bj1269.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/September/bj1269.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/September/bj1620.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/September/bj1620.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/September/bj1764.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/September/bj1764.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +81,7 @@
       <workItem from="1695791090143" duration="2514000" />
       <workItem from="1695801821286" duration="6957000" />
       <workItem from="1695819593237" duration="1879000" />
-      <workItem from="1695877929449" duration="17856000" />
+      <workItem from="1695877929449" duration="23106000" />
     </task>
     <task id="LOCAL-00001" summary="Sep_eleventh">
       <option name="closed" value="true" />
@@ -203,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695909929277</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Sep_29th">
+      <option name="closed" value="true" />
+      <created>1695915226249</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1695915226249</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +245,8 @@
     <MESSAGE value="Sep_26th" />
     <MESSAGE value="Sep_27th" />
     <MESSAGE value="Sep_28th" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sep_28th" />
+    <MESSAGE value="Sep_29th" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sep_29th" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

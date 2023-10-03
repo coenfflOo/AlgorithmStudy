@@ -61,7 +61,7 @@ public class bj24511 {
         for (int i = 0; i < N; i++) {
             typeArr[i] = Integer.parseInt(st.nextToken());
         }
-
+        
         Deque<Integer> deque = new ArrayDeque<>(); // 원소를 저장하기 위한 Deque 자료구조
 
         st = new StringTokenizer(br.readLine());

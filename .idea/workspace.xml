@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87b739b6-2ca0-406a-9fb9-ac6832e9e810" name="변경" comment="Oct_3rd">
-      <change afterPath="$PROJECT_DIR$/src/October/bj20920.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/October/bj25192.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/October/bj26069.java" afterDir="false" />
+    <list default="true" id="87b739b6-2ca0-406a-9fb9-ac6832e9e810" name="변경" comment="Oct_4th">
+      <change afterPath="$PROJECT_DIR$/src/October/bj24060.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/October/bj4779.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BJ1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BaekJoonStudy.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +41,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/flyn/IdeaProjects/JAVA STUDY/BaekJoon/BaekJoonStudy&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -87,7 +88,10 @@
       <workItem from="1696215026064" duration="20004000" />
       <workItem from="1696296896188" duration="4772000" />
       <workItem from="1696302334432" duration="1613000" />
-      <workItem from="1696378242938" duration="3807000" />
+      <workItem from="1696378242938" duration="3974000" />
+      <workItem from="1696392023818" duration="26000" />
+      <workItem from="1696392094828" duration="3000" />
+      <workItem from="1696451227491" duration="6408000" />
     </task>
     <task id="LOCAL-00001" summary="Sep_eleventh">
       <option name="closed" value="true" />
@@ -265,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696301988265</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Oct_4th">
+      <option name="closed" value="true" />
+      <created>1696382756852</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1696382756852</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,7 +316,8 @@
     <MESSAGE value="Oct_1st" />
     <MESSAGE value="Oct_2nd" />
     <MESSAGE value="Oct_3rd" />
-    <option name="LAST_COMMIT_MESSAGE" value="Oct_3rd" />
+    <MESSAGE value="Oct_4th" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oct_4th" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

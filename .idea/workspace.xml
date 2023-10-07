@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87b739b6-2ca0-406a-9fb9-ac6832e9e810" name="변경" comment="Oct_4th">
-      <change afterPath="$PROJECT_DIR$/src/October/bj24060.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/October/bj4779.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="87b739b6-2ca0-406a-9fb9-ac6832e9e810" name="변경" comment="Oct_6th">
+      <change afterPath="$PROJECT_DIR$/src/October/bj2579.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BJ1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BaekJoonStudy.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +88,7 @@
       <workItem from="1696378242938" duration="3974000" />
       <workItem from="1696392023818" duration="26000" />
       <workItem from="1696392094828" duration="3000" />
-      <workItem from="1696451227491" duration="6408000" />
+      <workItem from="1696451227491" duration="9245000" />
     </task>
     <task id="LOCAL-00001" summary="Sep_eleventh">
       <option name="closed" value="true" />
@@ -277,7 +274,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696382756852</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Oct_5th">
+      <option name="closed" value="true" />
+      <created>1696490092124</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1696490092124</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Oct_6th">
+      <option name="closed" value="true" />
+      <created>1696570521125</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1696570521125</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +330,9 @@
     <MESSAGE value="Oct_2nd" />
     <MESSAGE value="Oct_3rd" />
     <MESSAGE value="Oct_4th" />
-    <option name="LAST_COMMIT_MESSAGE" value="Oct_4th" />
+    <MESSAGE value="Oct_5th" />
+    <MESSAGE value="Oct_6th" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oct_6th" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

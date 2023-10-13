@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87b739b6-2ca0-406a-9fb9-ac6832e9e810" name="변경" comment="Oct_11th">
+    <list default="true" id="87b739b6-2ca0-406a-9fb9-ac6832e9e810" name="변경" comment="Oct_12th">
+      <change afterPath="$PROJECT_DIR$/src/October/bj9461.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/October/bj24060.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/October/bj24060.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/October/bj2579.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/October/bj2579.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +91,7 @@
       <workItem from="1696451227491" duration="9259000" />
       <workItem from="1696751485842" duration="294000" />
       <workItem from="1696831164626" duration="671000" />
-      <workItem from="1696930823053" duration="11230000" />
+      <workItem from="1696930823053" duration="15929000" />
     </task>
     <task id="LOCAL-00001" summary="Sep_eleventh">
       <option name="closed" value="true" />
@@ -310,7 +309,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697005632071</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Oct_12th">
+      <option name="closed" value="true" />
+      <created>1697114142984</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1697114142984</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +336,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Sep_eleventh" />
     <MESSAGE value="Sep_twelveth" />
     <MESSAGE value="Sep_thirteen" />
     <MESSAGE value="Sep_fifteen" />
@@ -354,7 +360,8 @@
     <MESSAGE value="Oct_6th" />
     <MESSAGE value="Oct_7th" />
     <MESSAGE value="Oct_11th" />
-    <option name="LAST_COMMIT_MESSAGE" value="Oct_11th" />
+    <MESSAGE value="Oct_12th" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oct_12th" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

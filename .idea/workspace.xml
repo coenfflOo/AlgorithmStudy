@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87b739b6-2ca0-406a-9fb9-ac6832e9e810" name="변경" comment="Oct_12th">
-      <change afterPath="$PROJECT_DIR$/src/October/bj9461.java" afterDir="false" />
+    <list default="true" id="87b739b6-2ca0-406a-9fb9-ac6832e9e810" name="변경" comment="Oct_13th">
+      <change afterPath="$PROJECT_DIR$/src/October/bj11659.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/October/bj17626.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +92,8 @@
       <workItem from="1696451227491" duration="9259000" />
       <workItem from="1696751485842" duration="294000" />
       <workItem from="1696831164626" duration="671000" />
-      <workItem from="1696930823053" duration="15929000" />
+      <workItem from="1696930823053" duration="16660000" />
+      <workItem from="1697263594998" duration="5507000" />
     </task>
     <task id="LOCAL-00001" summary="Sep_eleventh">
       <option name="closed" value="true" />
@@ -317,7 +319,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697114142984</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Oct_13th">
+      <option name="closed" value="true" />
+      <created>1697203156129</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1697203156129</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,7 +346,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Sep_twelveth" />
     <MESSAGE value="Sep_thirteen" />
     <MESSAGE value="Sep_fifteen" />
     <MESSAGE value="Sep_sixteen" />
@@ -361,7 +370,8 @@
     <MESSAGE value="Oct_7th" />
     <MESSAGE value="Oct_11th" />
     <MESSAGE value="Oct_12th" />
-    <option name="LAST_COMMIT_MESSAGE" value="Oct_12th" />
+    <MESSAGE value="Oct_13th" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oct_13th" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

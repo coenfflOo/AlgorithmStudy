@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87b739b6-2ca0-406a-9fb9-ac6832e9e810" name="변경" comment="Oct_14th">
-      <change afterPath="$PROJECT_DIR$/src/October/bj11726.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/October/bj11727.java" afterDir="false" />
+    <list default="true" id="87b739b6-2ca0-406a-9fb9-ac6832e9e810" name="변경" comment="Oct_15th">
+      <change afterPath="$PROJECT_DIR$/src/October/bj1260.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/October/bj2630.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +94,8 @@
       <workItem from="1696831164626" duration="671000" />
       <workItem from="1696930823053" duration="16660000" />
       <workItem from="1697263594998" duration="5521000" />
-      <workItem from="1697363468273" duration="4579000" />
+      <workItem from="1697363468273" duration="4821000" />
+      <workItem from="1697418852768" duration="9561000" />
     </task>
     <task id="LOCAL-00001" summary="Sep_eleventh">
       <option name="closed" value="true" />
@@ -336,7 +337,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697274964970</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Oct_15th">
+      <option name="closed" value="true" />
+      <created>1697369443100</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1697369443100</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -355,7 +364,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Sep_fifteen" />
     <MESSAGE value="Sep_sixteen" />
     <MESSAGE value="Sep_seventeen" />
     <MESSAGE value="Sep_eightteen" />
@@ -380,7 +388,18 @@
     <MESSAGE value="Oct_12th" />
     <MESSAGE value="Oct_13th" />
     <MESSAGE value="Oct_14th" />
-    <option name="LAST_COMMIT_MESSAGE" value="Oct_14th" />
+    <MESSAGE value="Oct_15th" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oct_15th" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StackOverflowError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

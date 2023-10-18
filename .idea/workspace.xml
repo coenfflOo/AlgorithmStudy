@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87b739b6-2ca0-406a-9fb9-ac6832e9e810" name="변경" comment="Oct_16th">
-      <change afterPath="$PROJECT_DIR$/src/October/bj1012.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/October/bj11724.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/October/bj1927.java" afterDir="false" />
+    <list default="true" id="87b739b6-2ca0-406a-9fb9-ac6832e9e810" name="변경" comment="Oct_17th">
+      <change afterPath="$PROJECT_DIR$/src/October/bj1074.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/October/bj1697.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/October/bj1931.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +97,9 @@
       <workItem from="1697263594998" duration="5521000" />
       <workItem from="1697363468273" duration="4821000" />
       <workItem from="1697418852768" duration="9575000" />
-      <workItem from="1697524848764" duration="9095000" />
+      <workItem from="1697524848764" duration="11706000" />
+      <workItem from="1697602078358" duration="2157000" />
+      <workItem from="1697629725021" duration="1662000" />
     </task>
     <task id="LOCAL-00001" summary="Sep_eleventh">
       <option name="closed" value="true" />
@@ -355,7 +357,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697458189251</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Oct_17th">
+      <option name="closed" value="true" />
+      <created>1697548894443</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1697548894443</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,7 +384,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Sep_seventeen" />
     <MESSAGE value="Sep_eightteen" />
     <MESSAGE value="Sep_twenty" />
     <MESSAGE value="Sep_21st" />
@@ -399,7 +408,8 @@
     <MESSAGE value="Oct_14th" />
     <MESSAGE value="Oct_15th" />
     <MESSAGE value="Oct_16th" />
-    <option name="LAST_COMMIT_MESSAGE" value="Oct_16th" />
+    <MESSAGE value="Oct_17th" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oct_17th" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

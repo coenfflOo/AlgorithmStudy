@@ -36,7 +36,7 @@ public class bj1074 {
         }
 
         int subSize = halfSize * halfSize; // 해당 사분면에서 방문한 칸의 수
-        visited += subSize * quadrant; // 현재 사분면의 방문 횟수 추가
+        visited += subSize * quadrant; // 현재 사분면의 방문 횟수 누적
 
         return recursiveZOrder(r, c, halfSize);
     }

@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87b739b6-2ca0-406a-9fb9-ac6832e9e810" name="변경" comment="Oct_17th">
-      <change afterPath="$PROJECT_DIR$/src/October/bj1074.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/October/bj1697.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/October/bj1931.java" afterDir="false" />
+    <list default="true" id="87b739b6-2ca0-406a-9fb9-ac6832e9e810" name="변경" comment="Oct_18th">
+      <change afterPath="$PROJECT_DIR$/src/October/bj14940.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/October/bj7576.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/October/bj1074.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/October/bj1074.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/October/bj1697.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/October/bj1697.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/October/bj1931.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/October/bj1931.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +101,9 @@
       <workItem from="1697418852768" duration="9575000" />
       <workItem from="1697524848764" duration="11706000" />
       <workItem from="1697602078358" duration="2157000" />
-      <workItem from="1697629725021" duration="1662000" />
+      <workItem from="1697629725021" duration="12274000" />
+      <workItem from="1697697597863" duration="576000" />
+      <workItem from="1697717079375" duration="1728000" />
     </task>
     <task id="LOCAL-00001" summary="Sep_eleventh">
       <option name="closed" value="true" />
@@ -365,7 +369,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697548894443</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Oct_18th">
+      <option name="closed" value="true" />
+      <created>1697639432092</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1697639432092</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,7 +396,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Sep_eightteen" />
     <MESSAGE value="Sep_twenty" />
     <MESSAGE value="Sep_21st" />
     <MESSAGE value="Sep_22nd" />
@@ -409,7 +420,8 @@
     <MESSAGE value="Oct_15th" />
     <MESSAGE value="Oct_16th" />
     <MESSAGE value="Oct_17th" />
-    <option name="LAST_COMMIT_MESSAGE" value="Oct_17th" />
+    <MESSAGE value="Oct_18th" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oct_18th" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

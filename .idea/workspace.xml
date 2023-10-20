@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87b739b6-2ca0-406a-9fb9-ac6832e9e810" name="변경" comment="Oct_19th">
+      <change afterPath="$PROJECT_DIR$/src/October/bj15649.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/October/bj14940.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/October/bj14940.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/October/bj7576.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +100,8 @@
       <workItem from="1697602078358" duration="2157000" />
       <workItem from="1697629725021" duration="12274000" />
       <workItem from="1697697597863" duration="576000" />
-      <workItem from="1697717079375" duration="4177000" />
+      <workItem from="1697717079375" duration="5850000" />
+      <workItem from="1697740919552" duration="5396000" />
     </task>
     <task id="LOCAL-00001" summary="Sep_eleventh">
       <option name="closed" value="true" />
@@ -381,7 +383,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697718820726</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Oct_19th">
+      <option name="closed" value="true" />
+      <created>1697721271751</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1697721271751</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

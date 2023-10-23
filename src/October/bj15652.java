@@ -1,10 +1,10 @@
 package October;
-import java.io.*;
 import java.util.*;
-
-public class bj15651 {
+import java.io.*;
+public class bj15652 {
     static int N, M;
     static int[] sequence;
+    static boolean[] used;
     static BufferedWriter bw;
 
     public static void main(String[] args) throws IOException {
@@ -15,13 +15,14 @@ public class bj15651 {
         M = Integer.parseInt(st.nextToken());
 
         sequence = new int[M];
+        used = new boolean[N];
 
-        findSequences(0);
+        findSequences(1,0);
         bw.flush();
         bw.close();
     }
 
-    public static void findSequences(int depth) throws IOException {
+    public static void findSequences(int at, int depth) throws IOException {
         if (depth == M) {
             for (int i = 0; i < M; i++) {
                 bw.write(sequence[i] + " ");
@@ -30,25 +31,20 @@ public class bj15651 {
             return;
         }
 
-        for (int i = 1; i <= N; i++) {
+        for (int i = at; i <= N; i++) {
             sequence[depth] = i;
-            findSequences(depth + 1);
+            findSequences(i,depth + 1);
         }
     }
 }
+//4 2
 //1 1
 //1 2
 //1 3
 //1 4
-//2 1
 //2 2
 //2 3
 //2 4
-//3 1
-//3 2
 //3 3
 //3 4
-//4 1
-//4 2
-//4 3
 //4 4

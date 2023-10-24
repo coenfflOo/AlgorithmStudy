@@ -4,7 +4,6 @@ import java.io.*;
 public class bj15652 {
     static int N, M;
     static int[] sequence;
-    static boolean[] used;
     static BufferedWriter bw;
 
     public static void main(String[] args) throws IOException {
@@ -15,7 +14,6 @@ public class bj15652 {
         M = Integer.parseInt(st.nextToken());
 
         sequence = new int[M];
-        used = new boolean[N];
 
         findSequences(1,0);
         bw.flush();

@@ -2,31 +2,42 @@ import java.util.*;
 import java.io.*;
 
 public class Main {
-    static int R;
+    static int count1 = 0;
+    static int count2 = 0;
+    static int[] f;
+
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
         int N = Integer.parseInt(br.readLine());
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < N; i++) {
-            String str = br.readLine();
-            R = 1;
-            sb.append(isPalindrome(str)).append(" ").append(R).append("\n");
-        }
-        bw.write(sb.toString());
+        int fib1 = fib(N);
+        int fib2 = fibonacci(N);
+        bw.write(count1+" "+count2);
         bw.flush();
     }
 
-    public static int isPalindrome(String s){
-        return recursion(s, 0, s.length()-1);
-    }
-
-    public static int recursion(String s, int l, int r){
-        if(l >= r) return 1;
-        else if(s.charAt(l) != s.charAt(r)) return 0;
-        else {
-            R++;
-            return recursion(s, l + 1, r - 1);
+    private static int fib(int n) {
+        if (n == 1 || n == 2) {
+            count1++;
+            return 1;
+        } else {
+            return fib(n - 1) + fib(n - 2);
         }
     }
+
+    private static int fibonacci(int n) {
+        f = new int[n + 1];
+        if (n == 1 || n == 2) {
+            count2++;
+            f[1] = f[2] = 1;
+        }
+
+        for (int i = 3; i < n; i++) {
+            count2++;
+            f[i] = f[i - 1] + f[i - 2];
+        }
+        count2++;
+        return f[n];
+    }
+
 }

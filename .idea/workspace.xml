@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87b739b6-2ca0-406a-9fb9-ac6832e9e810" name="변경" comment="Jan_1">
-      <change afterPath="$PROJECT_DIR$/src/java_2024/Jan/BJ1026.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/Jan/BJ10817.java" afterDir="false" />
+    <list default="true" id="87b739b6-2ca0-406a-9fb9-ac6832e9e810" name="변경" comment="Jan_2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +125,8 @@
       <workItem from="1704105905540" duration="1746000" />
       <workItem from="1704109068530" duration="61000" />
       <workItem from="1704114895278" duration="24000" />
-      <workItem from="1704204319809" duration="1021000" />
+      <workItem from="1704204319809" duration="1215000" />
+      <workItem from="1704291343122" duration="628000" />
     </task>
     <task id="LOCAL-00001" summary="Sep_eleventh">
       <option name="closed" value="true" />
@@ -489,7 +488,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704109122357</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Jan_2">
+      <option name="closed" value="true" />
+      <created>1704205526890</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1704205526890</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -508,7 +515,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Oct_1st" />
     <MESSAGE value="Oct_2nd" />
     <MESSAGE value="Oct_3rd" />
     <MESSAGE value="Oct_4th" />
@@ -533,7 +539,8 @@
     <MESSAGE value="Oct_28th" />
     <MESSAGE value="Oct_29th" />
     <MESSAGE value="Jan_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jan_1" />
+    <MESSAGE value="Jan_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jan_2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

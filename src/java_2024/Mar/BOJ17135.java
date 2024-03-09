@@ -3,163 +3,141 @@ package java_2024.Mar;
 import java.util.*;
 import java.io.*;
 
-public class BOJ17135 {
+class BOJ17135 {
     static int n, m, d;
-    static int[][] map;
-    static int[][] copyMap;
-    static List<Point> enemy;
-    static List<Point> archer;
-    static boolean[] selected;
-    static int maxKill;
+    static int[][] originalMap;
+    static int[] archer;
+    static boolean[][] killMap;
+    static int res;
 
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
-        n = Integer.parseInt(st.nextToken());
-        m = Integer.parseInt(st.nextToken());
-        d = Integer.parseInt(st.nextToken());
+        Scanner sc = new Scanner(System.in);
+        n = sc.nextInt();
+        m = sc.nextInt();
+        d = sc.nextInt();
 
-        map = new int[n + 1][m];
-        enemy = new ArrayList<>();
-        archer = new ArrayList<>();
-        for (int i = 0; i < n + 1; i++) {
-            if (i != n) {
-                st = new StringTokenizer(br.readLine());
-            }
+        originalMap = new int[n][m];
+        for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
-                if (i == n) {
-                    map[i][j] = 2;
-                    archer.add(new Point(i, j));
-                } else {
-                    map[i][j] = Integer.parseInt(st.nextToken());
-                    if (map[i][j] == 1) {
-                        enemy.add(new Point(i, j));
-                    }
-                }
+                originalMap[i][j] = sc.nextInt();
             }
         }
 
-        selected = new boolean[archer.size()];
-        maxKill = 0;
+        res = 0;
+        archer = new int[3];
         combArcher(0, 0);
-        System.out.println(maxKill);
+        System.out.println(res);
     }
 
-    private static void combArcher(int cnt, int start) {
+    private static void combArcher(int cnt, int idx) {
         if (cnt == 3) {
-            copyMap = new int[n + 1][m];
-            for (int i = 0; i < n + 1; i++) {
-                for (int j = 0; j < m; j++) {
-                    copyMap[i][j] = map[i][j];
-                }
-            }
-            // 궁수 3명 뽑음
-            List<Point> selectedArcher = new ArrayList<>();
-            for (int i = 0; i < archer.size(); i++) {
-                if (selected[i]) {
-                    selectedArcher.add(archer.get(i));
-                    copyMap[archer.get(i).i][archer.get(i).j] = 3;
-                }
-            }
+            // 배열 복사
+            int[][] copyMap = copyOfOriginal();
+            int ans = 0;
 
-            // 게임 시작
-            int killed = 0;
-            while (isEnemy()) {
-                // 죽일놈 찾기
-                Set<Point> kill = new HashSet<>();
-                for (Point a : selectedArcher) {
+            // 적이 없을 떄 까지 게임진행
+            while (!noEnemy(copyMap)) {
+                killMap = new boolean[n][m];
+
+                for (int i = 0; i < 3; i++) { // 궁수별로 돌면서
+                    // 죽일 적을 골라야지
                     int distance = Integer.MAX_VALUE;
-                    Point k = null;
-                    for (Point e : enemy) {
-                        int dis = Math.abs(a.i - e.i) + Math.abs(a.j - e.j);
-                        if (dis <= d) {
-                            if (distance > dis) {
-                                distance = dis;
-                                k = e;
-                            } else if (k != null && distance == dis) {
-                                if (k.i > e.i) {
-                                    k = e;
+                    Point p = null;
+                    for (int j = n - 1; j > -1; j--) {
+                        for (int k = 0; k < m; k++) {
+                            if (copyMap[j][k] == 1) {
+//                                System.out.println(distance);
+                                int dis = calDistance(j, k, archer[i]);
+                                if (dis <= d) {
+                                    if (distance > dis) {
+                                        distance = dis;
+                                        p = new Point(j, k);
+                                    } else if (distance == dis) {
+                                        if (p != null) {
+                                            if (p.j > k) {
+                                                p = new Point(j, k);
+                                            }
+                                        } else {
+                                            p = new Point(j, k);
+                                        }
+                                    }
                                 }
                             }
                         }
                     }
-                    if (k != null) {
-                        kill.add(k);
+                    if (p != null) {
+                        killMap[p.i][p.j] = true;
                     }
                 }
 
-                // 죽여
-                killed += kill.size();
-                List<Point> newEnemy = new ArrayList<>();
-                if (!kill.isEmpty()) {
-                    for (Point e : enemy) {
-                        for (Point k : kill) {
-                            if (e.i == k.i && e.j == k.j) {
-                                copyMap[e.i][e.j] = 0;
-                            } else {
-                                newEnemy.add(e);
-                            }
+//                print(copyMap);
+
+                for (int i = 0; i < n; i++) {
+                    for (int j = 0; j < m; j++) {
+                        if (killMap[i][j]) {
+                            copyMap[i][j] = 0;
+                            ans++;
                         }
                     }
-                    if (!newEnemy.isEmpty())
-                        enemy=newEnemy;
                 }
 
-//                for (Point p : enemy) {
-//                    System.out.println("d"+p.i + " " + p.j);
-//                }
-
-                for (int i = enemy.size()-1; i >-1 ; i--) {
-                    Point e = enemy.get(i);
-                    copyMap[e.i][e.j] = 0;
-//                    System.out.println(e.i+" "+e.j);
-                    // 살아남은 적들 앞으로 한칸씩 전진
-                    int ni = e.i + 1;
-                    int nj = e.j;
-
-                    if (ni < n + 1 && nj < m && copyMap[ni][nj] == 0) {
-                        copyMap[ni][nj] = 1;
-                        enemy.set(i, new Point(ni, nj));
-                    } else {
-                        enemy.remove(e);
+                for (int i = n - 2; i >= 0; i--) {
+                    for (int j = 0; j < m; j++) {
+                        copyMap[i + 1][j] = copyMap[i][j];
                     }
                 }
-                print();
+                for (int i = 0; i < m; i++) {
+                    copyMap[0][i] = 0;
+                }
             }
-            maxKill = Math.max(maxKill, killed);
+//            System.out.println(ans);
+            res = Math.max(res, ans);
             return;
         }
 
-        if (start == archer.size()) {
+        if (idx == m) {
             return;
         }
 
-        selected[start] = true;
-        combArcher(cnt + 1, start + 1);
-        selected[start] = false;
-        combArcher(cnt, start + 1);
+        archer[cnt] = idx; // 이번 나의 타겟 써보는 중임
+        combArcher(cnt + 1, idx + 1);
+        combArcher(cnt, idx + 1);
     }
 
-    static boolean isEnemy() {
-        for (int i = 0; i < n + 1; i++) {
+    private static int calDistance(int j, int k, int i) {
+        return Math.abs(n - j) + Math.abs(i - k);
+    }
+
+    private static boolean noEnemy(int[][] copyMap) {
+        for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
                 if (copyMap[i][j] == 1) {
-                    return true;
+                    return false;
                 }
             }
         }
-        return false;
+        return true;
     }
 
-    static void print() {
-        System.out.println("-------------------------------");
-        for (int i = 0; i < n + 1; i++) {
+    private static int[][] copyOfOriginal() {
+        int[][] copy = new int[n][m];
+        for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
-                System.out.print(copyMap[i][j] + " ");
+                copy[i][j] = originalMap[i][j];
+            }
+        }
+        return copy;
+    }
+
+    static void print(int[][] arr) {
+        System.out.println("----------------------------------");
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                System.out.print(arr[i][j] + " ");
             }
             System.out.println();
         }
-        System.out.println("-------------------------------");
+        System.out.println("----------------------------------");
     }
 
     static class Point {

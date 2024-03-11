@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87b739b6-2ca0-406a-9fb9-ac6832e9e810" name="변경" comment="Jan_8">
-      <change afterPath="$PROJECT_DIR$/src/java_2024/Mar/BOJ10026.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/Mar/BOJ2636.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/Mar/BOj20055.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_2024/Mar/BOJ14891.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java_2024/Mar/BOJ17135.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_2024/Mar/BOJ17135.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +53,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.BOJ2636">
+  <component name="RunManager" selected="애플리케이션.BOJ14891">
     <configuration name="BOJ10026" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java_2024.Mar.BOJ10026" />
       <module name="AlgorithmStudy" />
@@ -70,8 +67,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ15683" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_2024.Mar.BOJ15683" />
+    <configuration name="BOJ14891" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_2024.Mar.BOJ14891" />
       <module name="AlgorithmStudy" />
       <extension name="coverage">
         <pattern>
@@ -124,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.BOJ14891" />
         <item itemvalue="애플리케이션.BOJ2636" />
         <item itemvalue="애플리케이션.BOJ10026" />
         <item itemvalue="애플리케이션.BOj20055" />
         <item itemvalue="애플리케이션.BOJ17135" />
-        <item itemvalue="애플리케이션.BOJ15683" />
       </list>
     </recent_temporary>
   </component>
@@ -226,6 +223,9 @@
       <workItem from="1709644948491" duration="5717000" />
       <workItem from="1709811577193" duration="2375000" />
       <workItem from="1709891152138" duration="6876000" />
+      <workItem from="1709995664120" duration="28000" />
+      <workItem from="1710154352039" duration="298000" />
+      <workItem from="1710155088482" duration="4686000" />
     </task>
     <task id="LOCAL-00002" summary="Sep_twelveth">
       <option name="closed" value="true" />

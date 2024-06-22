@@ -32,6 +32,7 @@ public class BOJ14891 {
                 toTheLeft(number, direction);
             }
             rounds.get(number).change(direction);
+            print();
         }
 
         System.out.println(calculate());
@@ -42,6 +43,7 @@ public class BOJ14891 {
             toTheRight(number + 1, !dir);
             rounds.get(number + 1).change(!dir);
         }
+//        print();
     }
 
     static void toTheLeft(int number, boolean dir) {
@@ -49,6 +51,7 @@ public class BOJ14891 {
             toTheLeft(number - 1, !dir);
             rounds.get(number - 1).change(!dir);
         }
+//        print();
     }
 
     static int calculate() {

@@ -5,51 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87b739b6-2ca0-406a-9fb9-ac6832e9e810" name="변경" comment="Jan_8">
-      <change afterPath="$PROJECT_DIR$/src/java_2024/Apr/BOJ1600.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/Apr/BOJ17141.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/Apr/BOJ17142.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/Apr/BOJ18428.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/Apr/BOJ2116.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/Apr/BOJ2252.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/Apr/BOJ2458.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/Apr/BOJ2470.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/Apr/BOJ2589.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/Apr/BOJ3197.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/Apr/BOJ9663.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/Apr/SWEA5643.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/June/BOJ1245.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/June/BOJ18258.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/June/BOJ2146.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/June/BOJ21736.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/June/BOJ2493.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/June/BOJ2638.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/June/BOJ28702.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/June/BOJ3015.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/June/BOJ30802.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/June/BOJ4796.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/June/BOJ5397.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/June/BOJ7662.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/June/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/Mar/BOJ15663.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/Mar/BOJ17143.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/Mar/BOJ6593.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/Mar/BOJ9205.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/Mar/SWEA1263.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/Mar/SWEA1767.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/Mar/SWEA5656.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/May/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/May/BOJ13459.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/May/BOJ16197.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/May/BOJ17135.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/May/BOJ2310.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/May/BOJ3980.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/May/BOJ5427.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/May/BOJ7490.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/May/BOJ7562.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/May/BOJ9205.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/May/SWEA5653_줄기세포배양.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_2024/Jul/BOJ2251.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_2024/June/BOJ1351.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_2024/June/BOJ13913.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_2024/June/BOJ15486.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_2024/June/BOJ25592.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_2024/June/BOJ2565.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_2024/June/BOJ2755.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_2024/June/BOJ9466.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_2024/June/selfProject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java_2025/Jan/BOJ_2468.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java_2024/Mar/BOJ14891.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java_2024/Mar/BOJ14891.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,9 +66,9 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.BOJ21736">
-    <configuration name="BOJ2146" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_2024.June.BOJ2146" />
+  <component name="RunManager" selected="애플리케이션.BOJ_2468">
+    <configuration name="BOJ1351" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_2024.June.BOJ1351" />
       <module name="AlgorithmStudy" />
       <extension name="coverage">
         <pattern>
@@ -113,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ21736" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_2024.June.BOJ21736" />
+    <configuration name="BOJ_2468" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_2025.Jan.BOJ_2468" />
       <module name="AlgorithmStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_2024.June.*" />
+          <option name="PATTERN" value="java_2025.Jan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ2493" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_2024.June.BOJ2493" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codingTest.Solution" />
       <module name="AlgorithmStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_2024.June.*" />
+          <option name="PATTERN" value="codingTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ3015" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_2024.June.BOJ3015" />
+    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codingTest.Solution2" />
       <module name="AlgorithmStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_2024.June.*" />
+          <option name="PATTERN" value="codingTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BOJ4796" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_2024.June.BOJ4796" />
+    <configuration name="Solution3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codingTest.Solution3" />
       <module name="AlgorithmStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_2024.June.*" />
+          <option name="PATTERN" value="codingTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.BOJ21736" />
-        <item itemvalue="애플리케이션.BOJ2146" />
-        <item itemvalue="애플리케이션.BOJ4796" />
-        <item itemvalue="애플리케이션.BOJ3015" />
-        <item itemvalue="애플리케이션.BOJ2493" />
+        <item itemvalue="애플리케이션.BOJ_2468" />
+        <item itemvalue="애플리케이션.Solution3" />
+        <item itemvalue="애플리케이션.Solution2" />
+        <item itemvalue="애플리케이션.Solution" />
+        <item itemvalue="애플리케이션.BOJ1351" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +260,17 @@
       <workItem from="1716953303126" duration="12648000" />
       <workItem from="1717774710210" duration="7264000" />
       <workItem from="1718079666128" duration="1935000" />
-      <workItem from="1718082132954" duration="43979000" />
+      <workItem from="1718082132954" duration="44039000" />
+      <workItem from="1719066876461" duration="1722000" />
+      <workItem from="1719240320107" duration="2396000" />
+      <workItem from="1719389512179" duration="18071000" />
+      <workItem from="1719494117820" duration="4732000" />
+      <workItem from="1719578049318" duration="3932000" />
+      <workItem from="1719650686310" duration="3997000" />
+      <workItem from="1720091544694" duration="4740000" />
+      <workItem from="1728088592887" duration="6473000" />
+      <workItem from="1730294456873" duration="14000" />
+      <workItem from="1735729225332" duration="4604000" />
     </task>
     <task id="LOCAL-00002" summary="Sep_twelveth">
       <option name="closed" value="true" />

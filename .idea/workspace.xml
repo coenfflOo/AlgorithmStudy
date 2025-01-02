@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87b739b6-2ca0-406a-9fb9-ac6832e9e810" name="변경" comment="Jan_8">
-      <change afterPath="$PROJECT_DIR$/src/java_2024/Jul/BOJ2251.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/June/BOJ1351.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/June/BOJ13913.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/June/BOJ15486.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/June/BOJ25592.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/June/BOJ2565.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/June/BOJ2755.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/June/BOJ9466.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2024/June/selfProject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java_2025/Jan/BOJ_2468.java" afterDir="false" />
+    <list default="true" id="87b739b6-2ca0-406a-9fb9-ac6832e9e810" name="변경" comment="20250101">
+      <change afterPath="$PROJECT_DIR$/src/java_2025/Jan/BOJ1389.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,31 +38,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/flyn/IdeaProjects/JAVA STUDY/Algorithm/AlgorithmStudy&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/flyn/IdeaProjects/JAVA STUDY/Algorithm/AlgorithmStudy",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="애플리케이션.BOJ_2468">
-    <configuration name="BOJ1351" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_2024.June.BOJ1351" />
+}]]></component>
+  <component name="RunManager" selected="애플리케이션.BOJ1389">
+    <configuration name="BOJ1389" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_2025.Jan.BOJ1389" />
       <module name="AlgorithmStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java_2024.June.*" />
+          <option name="PATTERN" value="java_2025.Jan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.BOJ1389" />
         <item itemvalue="애플리케이션.BOJ_2468" />
         <item itemvalue="애플리케이션.Solution3" />
         <item itemvalue="애플리케이션.Solution2" />
         <item itemvalue="애플리케이션.Solution" />
-        <item itemvalue="애플리케이션.BOJ1351" />
       </list>
     </recent_temporary>
   </component>
@@ -270,15 +260,7 @@
       <workItem from="1720091544694" duration="4740000" />
       <workItem from="1728088592887" duration="6473000" />
       <workItem from="1730294456873" duration="14000" />
-      <workItem from="1735729225332" duration="4604000" />
-    </task>
-    <task id="LOCAL-00002" summary="Sep_twelveth">
-      <option name="closed" value="true" />
-      <created>1694522075393</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1694522075393</updated>
+      <workItem from="1735729225332" duration="11624000" />
     </task>
     <task id="LOCAL-00003" summary="Sep_thirteen">
       <option name="closed" value="true" />
@@ -664,7 +646,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704724653201</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="20250101">
+      <option name="closed" value="true" />
+      <created>1735734291785</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1735734291786</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -683,7 +673,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Oct_6th" />
     <MESSAGE value="Oct_7th" />
     <MESSAGE value="Oct_11th" />
     <MESSAGE value="Oct_12th" />
@@ -708,7 +697,8 @@
     <MESSAGE value="Jan_6" />
     <MESSAGE value="Jan_7" />
     <MESSAGE value="Jan_8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jan_8" />
+    <MESSAGE value="20250101" />
+    <option name="LAST_COMMIT_MESSAGE" value="20250101" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

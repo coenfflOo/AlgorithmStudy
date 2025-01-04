@@ -7,7 +7,7 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class BOJ_2468 {
+public class BOJ2468 {
     private static int n;
     private static int[][] graph;
     private static boolean[][] visited;

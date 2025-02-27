@@ -4,6 +4,7 @@ out/
 !**/src/test/**/out/
 .gradle
 build
+.idea/workspace.xml
 
 ### Eclipse ###
 .apt_generated

@@ -3,63 +3,81 @@ import java.util.*;
 import java.io.*;
 import java.lang.*;
 public class BOJ16933 {
+    static int N, M, K;
+    static int[][] graph;
+    static int[] dx = {-1, 1, 0, 0};
+    static int[] dy = {0, 0, -1, 1};
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st;
-        int T = Integer.parseInt(br.readLine());
-        StringBuilder sb = new StringBuilder();
-        while (T-- > 0) {
-            st = new StringTokenizer(br.readLine());
-            int N = Integer.parseInt(st.nextToken());
-            int K = Integer.parseInt(st.nextToken());
-            st = new StringTokenizer(br.readLine());
-            int[] times = new int[N];
-            int[] indegree = new int[N];
-            for (int i = 0; i < N; i++) {
-                times[i] = Integer.parseInt(st.nextToken());
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        N = Integer.parseInt(st.nextToken());
+        M = Integer.parseInt(st.nextToken());
+        K = Integer.parseInt(st.nextToken());
+        graph = new int[N][M];
+        for (int i = 0; i < N; i++) {
+            String line = br.readLine();
+            for (int j = 0; j < M; j++) {
+                graph[i][j] = line.charAt(j) - '0';
             }
-            ArrayList<ArrayList<Integer>> graph = new ArrayList<>();
-            for (int i = 0; i < N; i++) {
-                graph.add(new ArrayList<>());
-            }
-            for (int i = 0; i < K; i++) {
-                st = new StringTokenizer(br.readLine());
-                int prev = Integer.parseInt(st.nextToken())-1;
-                int next = Integer.parseInt(st.nextToken())-1;
-                graph.get(prev).add(next);
-                indegree[next]++;
-            }
-            int success = Integer.parseInt(br.readLine())-1;
-
-            Queue<Integer> queue = new ArrayDeque<>();
-            int ans = 0;
-            int[] finish = new int[N];
-            for (int i = 0; i < N; i++) {
-                if (indegree[i] == 0) {
-                    queue.add(i);
-                    finish[i] = times[i];
-                    if (i == success) {
-                        ans = finish[i];
-                    }
-                }
-            }
-
-            out: while (!queue.isEmpty()) {
-                int cur = queue.poll();
-                for(int next : graph.get(cur)) {
-                    finish[next] = Math.max(finish[next], finish[cur]+times[next]);
-                    indegree[next]--;
-                    if (indegree[next] == 0) {
-                        queue.add(next);
-                        if (next == success) {
-                            ans = finish[next];
-                            break out;
-                        }
-                    }
-                }
-            }
-            sb.append(ans).append("\n");
         }
-        System.out.println(sb);
+
+        Queue<Point> queue = new ArrayDeque<>();
+        int[][][][] visited = new int[N][M][K+1][2];
+        for (int[][][] a : visited)
+            for (int[][] b : a)
+                for (int[] c : b)
+                    Arrays.fill(c, -1);
+        visited[0][0][0][1] = 1;
+        queue.offer(new Point(0,0,0,1));
+        while (!queue.isEmpty()) {
+            Point point = queue.poll();
+            int nextTime = 1 - point.time;
+            for (int i = 0; i < 4; i++) {
+                int nx = point.x + dx[i];
+                int ny = point.y + dy[i];
+                if (nx<0||ny<0||nx>=N||ny>=M) continue;
+                if(graph[nx][ny]==0){ // 벽아님,이동가능
+                    if(visited[nx][ny][point.k][nextTime] == -1) {
+                        visited[nx][ny][point.k][nextTime] = visited[point.x][point.y][point.k][point.time] + 1;
+                        queue.offer(new Point(nx, ny, point.k, nextTime));
+                    }
+                } else if(point.k<K&&point.time==1){
+                    if(visited[nx][ny][point.k+1][nextTime]==-1) {
+                        visited[nx][ny][point.k + 1][nextTime] = visited[point.x][point.y][point.k][point.time] + 1;
+                        queue.offer(new Point(nx, ny, point.k + 1, nextTime));
+                    }
+                } else if(point.time==0){
+                    if(visited[point.x][point.y][point.k][nextTime]==-1) {
+                        visited[point.x][point.y][point.k][nextTime] = visited[point.x][point.y][point.k][point.time] + 1;
+                        queue.offer(new Point(point.x, point.y, point.k, nextTime));
+                    }
+                }
+            }
+        }
+
+        int ans = Integer.MAX_VALUE;
+        for (int i = 0; i <= K; i++) {
+            for (int j = 0; j < 2; j++) {
+                if(visited[N-1][M-1][i][j] != -1){
+                    ans = Math.min(ans, visited[N-1][M-1][i][j]);
+                }
+            }
+        }
+
+        System.out.println(ans == Integer.MAX_VALUE ? -1 : ans);
+    }
+
+    static class Point {
+        int x;
+        int y;
+        int k;
+        int time;
+
+        Point(int x, int y, int k, int time) {
+            this.x = x;
+            this.y = y;
+            this.k = k;
+            this.time = time;
+        }
     }
 }
